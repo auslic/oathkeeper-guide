@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&family=Tulpen+One&display=swap');
+
+:root{
+  --fonte-primaria: 'Tulpen One', cursive, sans-serif;
+  --fonte-secundaria: 'Oxygen', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*FORMATAÇÃO GERAL*/
+.title {
+  font-family: var(--fonte-primaria);
+  font-size: 60px;
+}
+
+.subtitle {
+  font-family: var(--fonte-secundaria);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.text {
+  font-family: var(--fonte-secundaria);
+  font-size: 24px;
+}
+
+/*BOX CONFIG*/
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  align-items: center;
+}
+
+
+
